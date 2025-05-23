@@ -1,0 +1,12 @@
+This directory is for storing images like:
+- delicias.png (logo)
+- pudim.jpg
+- palha.jpg
+- mousse.jpg
+- bolo.jpg
+- bolo2.jpg
+- bolo3.jpg
+- bolo4.jpg
+- cookies.jpg
+
+Please add your images to this directory with these exact names.

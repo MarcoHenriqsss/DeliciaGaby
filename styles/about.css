@@ -1,0 +1,82 @@
+.about {
+  background-color: var(--secondary-color);
+  position: relative;
+  overflow: hidden;
+}
+
+.about::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('../assets/bg-pattern.svg') repeat;
+  opacity: 0.05;
+  z-index: 0;
+}
+
+.about-container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.about-image {
+  flex: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.about-content {
+  flex: 1;
+}
+
+.about-title {
+  margin-bottom: 1.5rem;
+}
+
+.about-description {
+  margin-bottom: 2rem;
+}
+
+.values-list {
+  list-style: none;
+}
+
+.value-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.value-icon {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.value-text {
+  font-weight: 500;
+}
+
+@media (max-width: 992px) {
+  .about-container {
+    flex-direction: column;
+  }
+  
+  .about-image {
+    order: -1;
+    margin-bottom: 2rem;
+  }
+}
