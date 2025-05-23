@@ -15,7 +15,7 @@ export function renderContact() {
             </span>
             <span>
               <strong>WhatsApp:</strong><br>
-              <a href="https://wa.me/5562824336530" target="_blank">+55 62 8243-6530</a>
+              <a href="https://wa.me/556282436530" target="_blank">+55 62 8243-6530</a>
             </span>
           </li>
           <li class="contact-item">
