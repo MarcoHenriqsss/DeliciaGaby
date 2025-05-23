@@ -42,7 +42,7 @@ export function renderContact() {
           <a href="https://instagram.com/delicias_gaby0" target="_blank" class="social-link">
             <i class="fab fa-instagram"></i>
           </a>
-          <a href="https://wa.me/5562824336530" target="_blank" class="social-link">
+          <a href="https://wa.me/556282436530" target="_blank" class="social-link">
             <i class="fab fa-whatsapp"></i>
           </a>
           <a href="#" class="social-link">
